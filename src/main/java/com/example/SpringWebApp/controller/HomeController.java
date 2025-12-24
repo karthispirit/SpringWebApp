@@ -8,7 +8,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String greeting(){
-        return "Hello word 123 ";
+        return "Hello word";
     }
 
     @RequestMapping("/about")
@@ -16,5 +16,5 @@ public class HomeController {
         return "Spring Web App About";
     }
 
-
+    //test feature web
 }
